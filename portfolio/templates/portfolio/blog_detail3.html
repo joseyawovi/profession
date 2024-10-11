@@ -1,0 +1,194 @@
+{% extends "portfolio/base.html" %}
+
+{% block content %}
+<!--
+        ===================
+            ABOUT 
+        ===================
+        -->
+
+<!-- home 2 -->
+<section class="mh-home image-bg home-2-img" id="mh-home">
+    <div class="img-foverlay img-color-overlay">
+        <div class="container">
+            <div class="row section-separator">
+                <div class="mh-page-title text-center col-sm-12">
+                    <h2>Blog</h2>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mh-blog">
+    <div class="container">
+        <div class="row section-separator">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                        <div class="mh-blog-item dark-bg blog-single">
+                            <img src="/static/assets/images/steps.png" alt="" class="img-fluid">
+                            <div class="blog-inner">
+                                <h2><a href="#"> Steps to a Successful Freelance Career in Web Development</a></h2>
+                                <div class="mh-blog-post-info">
+                                    <ul>
+                                        <li><strong>Post On</strong><a href="#">2.08.24</a></li>
+                                        <li><strong>By</strong><a href="#">Yawovi Joseph</a></li>
+                                    </ul>
+                                </div>
+                                <p>
+                                    
+                                    Starting a freelance career in web development can be both exciting and challenging.
+                                    Here are some key steps to help you build a successful path:
+
+                                    <h3>1. Master Core Skills</h3>
+                                    Ensure you have a solid foundation in HTML, CSS, JavaScript, and at least one
+                                    backend language (like Python or PHP). Familiarize yourself with modern frameworks
+                                    like React, Vue, or Node.js to stay competitive.
+
+                        
+                                    <h3>2. Build a Strong Portfolio</h3>
+
+                                    A portfolio is essential for showcasing your skills. Include personal projects,
+                                    open-source contributions, or past client work. Make sure your portfolio website is
+                                    well-designed—it’s your first impression on potential clients.
+
+                                   
+                                    <h3> 3. Leverage Freelance Platforms</h3>
+
+                                    Sign up for platforms like Upwork, Freelancer, or Fiverr. Create a compelling
+                                    profile, emphasizing your skills, experience, and what sets you apart. Be specific
+                                    about the services you offer, and target the right audience.
+
+                                   
+                                    <h3> 4. Network and Build Relationships</h3>
+
+                                    Join online communities, attend webinars, and participate in local meetups or
+                                    conferences. Building a network helps you stay updated and often leads to client
+                                    referrals.
+
+                                   
+                                    <h3>5. Set Clear Goals and Pricing</h3>
+
+                                    Determine your pricing structure based on your skill level and market standards. Be
+                                    transparent with clients about rates and timelines. Setting clear goals for projects
+                                    helps manage expectations and ensures smooth communication.
+
+                                    
+                                    <h3>6. Focus on Client Relationships</h3>
+
+                                    Client satisfaction leads to repeat business. Communicate effectively, meet
+                                    deadlines, and be open to feedback. Going the extra mile to deliver quality work can
+                                    set you apart from other freelancers.
+
+                                    
+                                    <h3>7. Stay Updated with Trends</h3>
+
+                                    Web development evolves quickly. Keep learning new technologies, tools, and design
+                                    trends. Continuous learning ensures you stay relevant and capable of handling more
+                                    complex projects.
+
+                                    By following these steps, you can establish a successful freelance career in web
+                                    development, building both your expertise and reputation over time.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 ">
+                        <div class="row mh-related-post">
+                            <div class="mh-blog-next-prev-post col-md-6 text-left">
+                                <a href="{% url "home" %}"><i class="fa fa-angle-left"></i> Go back</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- SIDEBAR -->
+            <div class="col-md-4">
+                <div class="mh-blog-sidebar">
+                    <div class="sidebar-item mh-author-info">
+                        <div class="mh-author-img">
+                            <div class="img-border">
+                                <img src="/static/assets/images/pic.jpeg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <h2>Joseph Yawovi</h2>
+                        <h4>Django Backend Developer</h4>
+                        <p>
+                            Focused on System Administration and Cybersecurity, dedicated to safeguarding digital assets
+                            and enhancing security protocols.
+                        </p>
+                        <ul class="social-icon">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-github"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-item mh-blog-category">
+                        <h3>Category</h3>
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Techonology</a></li>
+                            <li><a href="#">Food</a></li>
+                            <li><a href="#">Travel</a></li>
+                            <li><a href="#">Photography</a></li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-item mh-blog-category">
+                        <h3>Archive</h3>
+                        <ul>
+                            <li><a href="#">2018 (10)</a></li>
+                            <li><a href="#">Techonology (8)</a></li>
+                            <li><a href="#">Food (6)</a></li>
+                            <li><a href="#">Travel (8)</a></li>
+                            <li><a href="#">Photography (11)</a></li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-item mh-blog-insta">
+                        <h3>Instagram</h3>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="static/assets/images/b-1.png" alt="" class="img-fluid">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="static/assets/images/b-1.png" alt="" class="img-fluid">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="static/assets/images/b-1.png" alt="" class="img-fluid">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="static/assets/images/b-1.png" alt="" class="img-fluid">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="static/assets/images/b-1.png" alt="" class="img-fluid">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="static/assets/images/b-1.png" alt="" class="img-fluid">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+{% endblock content %}

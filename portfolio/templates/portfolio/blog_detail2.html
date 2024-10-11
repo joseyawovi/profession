@@ -1,0 +1,161 @@
+{% extends "portfolio/base.html" %}
+
+{% block content %}
+<!--
+        ===================
+            ABOUT 
+        ===================
+        -->
+
+<!-- home 2 -->
+<section class="mh-home image-bg home-2-img" id="mh-home">
+    <div class="img-foverlay img-color-overlay">
+        <div class="container">
+            <div class="row section-separator">
+                <div class="mh-page-title text-center col-sm-12">
+                    <h2>Blog</h2>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mh-blog">
+    <div class="container">
+        <div class="row section-separator">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                        <div class="mh-blog-item dark-bg blog-single">
+                            <img src="/static/assets/images/upwork.png" alt="" class="img-fluid">
+                            <div class="blog-inner">
+                                <h2><a href="#"> First Job as a Freelance Developer: A Learning Experience</a></h2>
+                                <div class="mh-blog-post-info">
+                                    <ul>
+                                        <li><strong>Post On</strong><a href="#">2.08.24</a></li>
+                                        <li><strong>By</strong><a href="#">Yawovi Joseph</a></li>
+                                    </ul>
+                                </div>
+                                <p>
+                                    Landing my first job as a freelance developer was both exciting and nerve-wracking.
+                                    I had just started offering my services, eager to prove myself in the world of
+                                    freelance tech. After submitting several proposals, I finally got a client who
+                                    needed help with a small web development project. The pay wasn’t huge, but the
+                                    experience was invaluable.
+
+                                    At the beginning, I was full of energy and confident in my coding skills. I
+                                    carefully reviewed the client’s requirements, eager to deliver exactly what they
+                                    wanted. What I hadn’t anticipated was how different freelance work could be from
+                                    traditional jobs. It wasn’t just about coding—I also had to manage client
+                                    expectations, timelines, and revisions. Communication turned out to be key. I
+                                    learned quickly that clarifying requirements upfront, providing regular updates, and
+                                    being adaptable were just as important as delivering clean code.
+
+                                    There were challenges along the way, from unexpected bugs to misaligned
+                                    expectations. But completing that first project gave me more than just a paycheck—it
+                                    gave me the confidence to handle real-world projects, interact with clients, and
+                                    manage my time effectively. That experience shaped how I approach every project
+                                    today, focusing not just on the technical side but also on the soft skills that make
+                                    a freelancer successful.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 ">
+                        <div class="row mh-related-post">
+                            <div class="mh-blog-next-prev-post col-md-6 text-left">
+                                <a href="{% url "home" %}"><i class="fa fa-angle-left"></i> Go back</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+
+            <!-- SIDEBAR -->
+            <div class="col-md-4">
+                <div class="mh-blog-sidebar">
+                    <div class="sidebar-item mh-author-info">
+                        <div class="mh-author-img">
+                            <div class="img-border">
+                                <img src="/static/assets/images/pic.jpeg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <h2>Joseph Yawovi</h2>
+                        <h4>Django Backend Developer</h4>
+                        <p>
+                            Focused on System Administration and Cybersecurity, dedicated to safeguarding digital assets
+                            and enhancing security protocols.
+                        </p>
+                        <ul class="social-icon">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-github"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-item mh-blog-category">
+                        <h3>Category</h3>
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Techonology</a></li>
+                            <li><a href="#">Food</a></li>
+                            <li><a href="#">Travel</a></li>
+                            <li><a href="#">Photography</a></li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-item mh-blog-category">
+                        <h3>Archive</h3>
+                        <ul>
+                            <li><a href="#">2018 (10)</a></li>
+                            <li><a href="#">Techonology (8)</a></li>
+                            <li><a href="#">Food (6)</a></li>
+                            <li><a href="#">Travel (8)</a></li>
+                            <li><a href="#">Photography (11)</a></li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-item mh-blog-insta">
+                        <h3>Instagram</h3>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="static/assets/images/b-1.png" alt="" class="img-fluid">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="static/assets/images/b-1.png" alt="" class="img-fluid">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="static/assets/images/b-1.png" alt="" class="img-fluid">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="static/assets/images/b-1.png" alt="" class="img-fluid">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="static/assets/images/b-1.png" alt="" class="img-fluid">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="static/assets/images/b-1.png" alt="" class="img-fluid">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+{% endblock content %}

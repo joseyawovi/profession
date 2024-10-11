@@ -20,4 +20,13 @@ def home(request):
            
             messages.error(request, 'Error saving message: {}'.format(e))
 
-    return render(request, 'portfolio/base.html')
+    return render(request, 'portfolio/index.html')
+
+def blog_detail1(request):
+    return render(request,'portfolio/blog_detail1.html')
+
+def blog_detail2(request):
+    return render(request,'portfolio/blog_detail2.html')
+
+def blog_detail3(request):
+    return render(request,'portfolio/blog_detail3.html')
